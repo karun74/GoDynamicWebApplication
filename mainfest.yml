@@ -1,6 +1,2 @@
----
-applications:
-  - name: simple-webApp
-    command: go-online
-    env:
-      GOPACKAGENAME: main
+package: github.com/GoDynamicWebApplication
+import: []
