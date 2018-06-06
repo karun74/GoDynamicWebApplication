@@ -1,0 +1,6 @@
+---
+applications:
+  - name: simple-webApp
+    command: go-online
+    env:
+      GOPACKAGENAME: main
