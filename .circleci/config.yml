@@ -23,7 +23,7 @@ jobs:
 
       # specify any bash command here prefixed with `run: `
       - run: go run main.go
-      - run: go get -v -t -d ./...
+      - run: curl -X GET http://localhost:8090/
       - run: go test -v ./...
       
  
