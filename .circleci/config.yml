@@ -22,7 +22,7 @@ jobs:
       - checkout
 
       # specify any bash command here prefixed with `run: `
-      - run: go run main.go
+      - run: go run main.go &
       - run: curl -X GET http://localhost:8090/
       - run: go test -v ./...
       
